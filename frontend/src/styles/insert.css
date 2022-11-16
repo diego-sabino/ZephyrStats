@@ -1,0 +1,81 @@
+fieldset {
+  margin: 12px;
+  padding: 12px;
+  text-align: center;
+}
+
+fieldset legend {
+  font-weight: bolder;
+  font-size: 24px; 
+}
+
+.produto-insert input{
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+  height: 24px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-size: 16px; 
+  text-align: center;
+}
+
+.produto-insert label{
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+}
+
+.produto-insert a{
+  height: 42px;
+  align-self: center;
+  justify-self: center;
+  border-radius: 5px;
+  border: 2px solid black;
+  background: none;
+  margin-top: 10px;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.produto-insert a:hover{
+  background: #45b382;
+  color: #fff;
+}
+
+.produto-insert button{
+  height: 42px;
+  width: 100%;
+  align-self: center;
+  justify-self: center;
+  border-radius: 5px;
+  border: 2px solid black;
+  background: none;
+  margin-top: 10px;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.produto-insert button:hover{
+  background: #45b382;
+  color: #fff;
+}
+
+.main-form {
+  border: 1px solid rgb(92, 92, 92);
+  padding: 50px;
+  border-radius: 15px;
+}
+
